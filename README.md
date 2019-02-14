@@ -1,4 +1,2 @@
-# Lumbung Data Hujan
-Semula direktori lokal, berkembang menjadi lumbung (*repository*). Digunakan untuk tempat belajar bahasa pemrograman R dengan kasus-kasus pengolahan data hujan.
-
-Akan dilakukan analisis data, siapa tahu bisa jadi tesis.
+# Tempat Belajar R dan git
+Direktori yang diunggah. Secara lokal dipakai untuk tempat belajar bahasa pemrograman R sekaligus membiasakan diri dengan git.

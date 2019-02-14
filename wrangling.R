@@ -49,15 +49,20 @@ tunggilis_2002_2006<-bind_cols(t,h)
 remove(bind,h,t)
 save(tunggilis_2002_2006, file = "tunggilis_2002_2006.Rda")
 
-# dari csv, 
+# data dari csv
+
 tunggilis <- read.csv("tunggilis_2000_2009.csv", header = T)
 
-# dari .Rda
+
+# data dari .Rda
+
 load("tunggilis_2003_2009.Rda")
 tunggilis<-tunggilis_2003_2009
 str(tunggilis)
 
+
 # formating tanggal
+
 tunggilis<-separate(tunggilis_2002_2009,Hari,c("y","m","d"),sep = "-")
 
 tgl<-unite(tunggilis[,1:3],"tgl",sep = "/")
