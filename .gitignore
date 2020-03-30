@@ -1,3 +1,6 @@
-/.RData
+.RData
 .Rhistory
 .Rproj.user
+*.rds
+*.html
+data/*
